@@ -22,7 +22,7 @@ void sendemail(){
 
       String serverPath = serverName;
       
-      // Your Domain name with URL path or IP address with path
+      // Your Domain name with URL path or IP address with path.
       http.begin(serverPath.c_str());
       
       // Send HTTP GET request
